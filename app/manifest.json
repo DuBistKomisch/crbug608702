@@ -1,0 +1,15 @@
+{
+  "name": "crbug608702",
+  "version": "1.0.0.0",
+  "minimum_chrome_version": "46.0.0.0",
+  "manifest_version": 2,
+  "description": "crbug608702",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "desktopCapture"
+  ]
+}
